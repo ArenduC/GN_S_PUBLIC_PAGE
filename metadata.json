@@ -1,0 +1,6 @@
+{
+  "name": "Sudora - Elegant Sudoku & Puzzle Organizer",
+  "description": "Official showcase, interactive rules guide, Google Play Store download, and Play Console-compliant Privacy Policy for Sudora.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

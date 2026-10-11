@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #090a0f;
+    background-image: 
+      radial-gradient(circle 900px at 50% -120px, rgba(244, 63, 94, 0.18), transparent 75%),
+      radial-gradient(circle 700px at 90% 40%, rgba(244, 63, 94, 0.05), transparent 70%),
+      radial-gradient(circle 600px at 10% 70%, rgba(244, 63, 94, 0.04), transparent 70%),
+      radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: auto, auto, auto, 28px 28px;
+    background-position: center top, center, center, center;
+    background-attachment: scroll, scroll, scroll, fixed;
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom glow and grid utilities matching the Sudora brand ambience */
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(244, 63, 94, 0.18) 0%, rgba(9, 10, 15, 0) 70%);
+}
+
+.glow-crimson {
+  box-shadow: 0 0 25px -4px rgba(244, 63, 94, 0.35);
+}
+
+.glow-crimson-subtle {
+  box-shadow: 0 0 15px -3px rgba(244, 63, 94, 0.18);
+}
+
+.border-crimson-glow {
+  border-color: rgba(244, 63, 94, 0.4);
+}
+
+
