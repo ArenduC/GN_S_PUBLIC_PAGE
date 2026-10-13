@@ -85,9 +85,6 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
               <Mail className="w-3.5 h-3.5" />
               arenduchanda1997@gmail.com
             </a>
-            <div className="pt-2 text-[11px] text-neutral-500 font-mono">
-              Package ID: <span className="text-neutral-300">com.graphynovus.sudora</span>
-            </div>
           </div>
         </div>
 

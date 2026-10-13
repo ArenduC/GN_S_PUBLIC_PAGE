@@ -4,7 +4,7 @@ import { SudoraLogo } from './SudoraLogo';
 
 export const DownloadSection: React.FC = () => {
   const [copiedLink, setCopiedLink] = useState(false);
-  const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.graphynovus.sudora';
+  const playStoreUrl = 'https://play.google.com/store/apps';
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(playStoreUrl).then(() => {
